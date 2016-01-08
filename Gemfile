@@ -1,5 +1,15 @@
 source 'https://rubygems.org'
+gem "devise"
+gem "bootstrap-sass"
+gem "simple_form"
+#使用simple_form替換掉form
 
+gem "carrierwave"
+gem "mini_magick"
+#實作圖片上傳 carrierwave
+
+gem "font-awesome-rails"
+#用 icon 點綴頁面設計
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.2'
